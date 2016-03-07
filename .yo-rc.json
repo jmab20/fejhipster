@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "fejhipster",
+    "packageName": "es.tecsidel.fejhipster",
+    "packageFolder": "es/tecsidel/fejhipster",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "8cb8fbd669db00b84aedcf6a6d7a82c558ed0a65",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
