@@ -7,7 +7,6 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano'),
     usemin = require('gulp-usemin'),
     uglify = require('gulp-uglify'),
-    sass = require('gulp-sass'),
     htmlmin = require('gulp-htmlmin'),
     imagemin = require('gulp-imagemin'),
     ngAnnotate = require('gulp-ng-annotate'),
@@ -34,8 +33,6 @@ var config = {
     app: 'src/main/webapp/',
     dist: 'src/main/webapp/dist/',
     test: 'src/test/javascript/',
-    importPath: 'src/main/webapp/bower_components',
-    scss: 'src/main/webapp/scss/',
     port: 9000,
     apiPort: 8080,
     liveReloadPort: 35729
@@ -79,21 +76,13 @@ gulp.task('images', function() {
         .pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('sass', function () {
-    return gulp.src(config.scss + '**/*.{scss,sass}')
-        .pipe(plumber({errorHandler: handleErrors}))
-        .pipe(changed(config.app + 'assets/styles', {extension: '.css'}))
-        .pipe(sass({includePaths:config.importPath}).on('error', sass.logError))
-        .pipe(gulp.dest(config.app + 'assets/styles'));
-});
-
-gulp.task('styles', ['sass'], function() {
+gulp.task('styles', [], function() {
     return gulp.src(config.app + 'assest/styles')
         .pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('install', function(done) {
-    runSequence('wiredep', 'ngconstant:dev', 'sass', done);
+    runSequence('wiredep', 'ngconstant:dev', done);
 });
 
 gulp.task('serve', function() {
@@ -166,7 +155,7 @@ gulp.task('serve', function() {
 gulp.task('watch', function() {
     gulp.watch('bower.json', ['wiredep']);
     gulp.watch(['gulpfile.js', 'pom.xml'], ['ngconstant:dev']);
-    gulp.watch(config.scss + '**/*.{scss,sass}', ['styles']);
+    gulp.watch(config.app + 'assets/styles/**/*.css', ['styles']);
     gulp.watch(config.app + 'assets/images/**', ['images']);
     gulp.watch(config.app + 'app/**/*.js', ['jshint']);
     gulp.watch([config.app + '*.html', config.app + 'app/**', config.app + 'i18n/**']).on('change', browserSync.reload);
@@ -182,16 +171,7 @@ gulp.task('wiredep:app', function () {
         }))
         .pipe(gulp.dest(config.app));
 
-    return es.merge(stream, gulp.src(config.scss + '*.{scss,sass}')
-        .pipe(plumber({errorHandler: handleErrors}))
-        .pipe(wiredep({
-            exclude: [
-                /angular-i18n/,  // localizations are loaded dynamically
-                'bower_components/bootstrap/' // Exclude Bootstrap LESS as we use bootstrap-sass
-            ],
-            ignorePath: /\.\.\/webapp\/bower_components\// // remove ../webapp/bower_components/ from paths of injected sass files
-        }))
-        .pipe(gulp.dest(config.scss)));
+    return stream;
 });
 
 gulp.task('wiredep:test', function () {
