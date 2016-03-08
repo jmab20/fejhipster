@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "provincias",
+      "otherEntityName": "provincia",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "comunidads"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "des",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091538",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

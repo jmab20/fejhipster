@@ -1,4 +1,4 @@
-# fejhipster
+# fejhipster  [![Build Status](https://travis-ci.org/jmab20/fejhipster.svg?branch=master)](https://travis-ci.org/jmab20/fejhipster) [![Coverage Status](https://coveralls.io/repos/jmab20/fejhipster/badge.svg?branch=master&service=github)](https://coveralls.io/github/jmab20/fejhipster?branch=master) 
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 

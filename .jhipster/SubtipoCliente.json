@@ -1,0 +1,19 @@
+{
+  "relationships": [],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "coSubtipoCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "subtipoCliente",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091535",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

@@ -1,0 +1,30 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "inforClientes",
+      "otherEntityName": "inforCliente",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "paiss"
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "inforUsuarios",
+      "otherEntityName": "inforUsuario",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "paiss"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "des",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091536",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}
