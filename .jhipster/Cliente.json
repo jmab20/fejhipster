@@ -1,0 +1,126 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "usuarios",
+      "otherEntityName": "usuario",
+      "relationshipType": "many-to-many",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "inforClientes",
+      "otherEntityName": "inforCliente",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "clientes"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "cif",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "tipoDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "nombreSocial",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 4,
+      "fieldName": "alta",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 5,
+      "fieldName": "entradaVigor",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 6,
+      "fieldName": "observ",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 7,
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 8,
+      "fieldName": "bloqueado",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 9,
+      "fieldName": "baja",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 10,
+      "fieldName": "bajaVigor",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 11,
+      "fieldName": "moroso",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 12,
+      "fieldName": "modificacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 13,
+      "fieldName": "autoriza",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 14,
+      "fieldName": "altaIndirecto",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 15,
+      "fieldName": "ampliado",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 16,
+      "fieldName": "bloqueo",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 17,
+      "fieldName": "vencimento",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 18,
+      "fieldName": "diasMargenCobro",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 19,
+      "fieldName": "docNoRecibida",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 20,
+      "fieldName": "categoria",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091530",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

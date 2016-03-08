@@ -1,0 +1,106 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "paiss",
+      "otherEntityName": "pais",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "id",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "inforUsuarios"
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "provincias",
+      "otherEntityName": "provincia",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "id",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "inforUsuarios"
+    },
+    {
+      "relationshipId": 3,
+      "relationshipName": "usuarios",
+      "otherEntityName": "usuario",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "inforUsuarios"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "domicilio",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "poblacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "coPostal",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 4,
+      "fieldName": "empresa",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 5,
+      "fieldName": "telefono2",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 6,
+      "fieldName": "telefono3",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 7,
+      "fieldName": "email2",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 8,
+      "fieldName": "email3",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 9,
+      "fieldName": "documento",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 10,
+      "fieldName": "infoProfesional",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 11,
+      "fieldName": "tipoDocumento",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 12,
+      "fieldName": "nuCopiasRevista",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 13,
+      "fieldName": "iniSusRevista",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 14,
+      "fieldName": "finsusRevista",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091533",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

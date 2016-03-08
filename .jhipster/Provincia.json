@@ -1,0 +1,38 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "comunidads",
+      "otherEntityName": "comunidad",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "inforClientes",
+      "otherEntityName": "inforCliente",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "provincias"
+    },
+    {
+      "relationshipId": 3,
+      "relationshipName": "inforUsuarios",
+      "otherEntityName": "inforUsuario",
+      "relationshipType": "one-to-one",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "provincias"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "des",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160308091537",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

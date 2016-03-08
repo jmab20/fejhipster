@@ -7,11 +7,6 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_vPsl8OFPEeWnG9QxINTecQ" name="Cliente">
-    <ownedAttribute xmi:id="_-VrtoOFPEeWnG9QxINTecQ" name="coCliente" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Vs7wOFPEeWnG9QxINTecQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Vs7weFPEeWnG9QxINTecQ" value="1"/>
-    </ownedAttribute>
     <ownedAttribute xmi:id="_AFFOsOFQEeWnG9QxINTecQ" name="cif" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AFF1wOFQEeWnG9QxINTecQ"/>
@@ -114,11 +109,6 @@
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_wNoN0OFPEeWnG9QxINTecQ" name="Usuario">
-    <ownedAttribute xmi:id="_ECA-UOFQEeWnG9QxINTecQ" name="coUsuario" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ECBlYOFQEeWnG9QxINTecQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ECBlYeFQEeWnG9QxINTecQ" value="1"/>
-    </ownedAttribute>
     <ownedAttribute xmi:id="_I1Qq4OFQEeWnG9QxINTecQ" name="nombre" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I1R5AOFQEeWnG9QxINTecQ" value="1"/>
@@ -445,36 +435,21 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OQ3poOReEeWqYqAI7iQDvw" name="Pais">
     <templateBinding xmi:id="_wxcWMORoEeW2X4N97zchHQ"/>
-    <ownedAttribute xmi:id="_D1Z64ORfEeWqYqAI7iQDvw" name="borra" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D1dlQORfEeWqYqAI7iQDvw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D1dlQeRfEeWqYqAI7iQDvw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_GbQi0ORfEeWqYqAI7iQDvw" name="pais" visibility="public">
+    <ownedAttribute xmi:id="_GbQi0ORfEeWqYqAI7iQDvw" name="des" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GbRJ4ORfEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GbRw8ORfEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Rss3UOReEeWqYqAI7iQDvw" name="Provincia">
-    <ownedAttribute xmi:id="_ez5-IOReEeWqYqAI7iQDvw" name="CO_PROVINCIA" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ez7zUOReEeWqYqAI7iQDvw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ez7zUeReEeWqYqAI7iQDvw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_iatFsOReEeWqYqAI7iQDvw" name="DES_PROVINCIA" visibility="public">
+    <ownedAttribute xmi:id="_iatFsOReEeWqYqAI7iQDvw" name="des" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iatswOReEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iauT0OReEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_WTwiAOReEeWqYqAI7iQDvw" name="Comunidad">
-    <ownedAttribute xmi:id="_ZFSOcOReEeWqYqAI7iQDvw" name="CO_COMUNIDAD" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZFXG8OReEeWqYqAI7iQDvw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZFXG8eReEeWqYqAI7iQDvw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_a61a0OReEeWqYqAI7iQDvw" name="DES_COMUNIDAD" visibility="public">
+    <ownedAttribute xmi:id="_a61a0OReEeWqYqAI7iQDvw" name="des" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a61a0eReEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a62B4OReEeWqYqAI7iQDvw" value="1"/>
@@ -508,6 +483,46 @@
     <ownedEnd xmi:id="_0L0LUORoEeW2X4N97zchHQ" name="inforClientes" type="_hk9NoORXEeWqYqAI7iQDvw" association="_0LcX4ORoEeW2X4N97zchHQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0L3OoORoEeW2X4N97zchHQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0L8HIORoEeW2X4N97zchHQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__6Y3wOUXEeWayv3yLsng2Q" memberEnd="__6ciIOUXEeWayv3yLsng2Q __6haoOUXEeWayv3yLsng2Q" navigableOwnedEnd="__6haoOUXEeWayv3yLsng2Q">
+    <ownedEnd xmi:id="__6ciIOUXEeWayv3yLsng2Q" name="comunidads" type="_WTwiAOReEeWqYqAI7iQDvw" aggregation="composite" association="__6Y3wOUXEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__6eXUOUXEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__6eXUeUXEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__6haoOUXEeWayv3yLsng2Q" name="provincias" type="_Rss3UOReEeWqYqAI7iQDvw" association="__6Y3wOUXEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__6j24OUXEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__6kd8OUXEeWayv3yLsng2Q" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q0OrcOUZEeWayv3yLsng2Q" memberEnd="_q0PSgOUZEeWayv3yLsng2Q _q0Tj8OUZEeWayv3yLsng2Q" navigableOwnedEnd="_q0PSgOUZEeWayv3yLsng2Q _q0Tj8OUZEeWayv3yLsng2Q">
+    <ownedEnd xmi:id="_q0PSgOUZEeWayv3yLsng2Q" name="inforClientes" type="_hk9NoORXEeWqYqAI7iQDvw" association="_q0OrcOUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q0S84OUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q0S84eUZEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_q0Tj8OUZEeWayv3yLsng2Q" name="provincias" type="_Rss3UOReEeWqYqAI7iQDvw" association="_q0OrcOUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q0X1YOUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q0ZDgOUZEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4fBAcOUZEeWayv3yLsng2Q" memberEnd="_4fBngOUZEeWayv3yLsng2Q _4fFR4OUZEeWayv3yLsng2Q" navigableOwnedEnd="_4fBngOUZEeWayv3yLsng2Q _4fFR4OUZEeWayv3yLsng2Q">
+    <ownedEnd xmi:id="_4fBngOUZEeWayv3yLsng2Q" name="inforUsuarios" type="_qPD3AORXEeWqYqAI7iQDvw" association="_4fBAcOUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4fEq0OUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4fEq0eUZEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_4fFR4OUZEeWayv3yLsng2Q" name="paiss" type="_OQ3poOReEeWqYqAI7iQDvw" association="_4fBAcOUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4fHHEOUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4fHuIOUZEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-Tij0OUZEeWayv3yLsng2Q" memberEnd="_-TkZAOUZEeWayv3yLsng2Q _-TrtwOUZEeWayv3yLsng2Q" navigableOwnedEnd="_-TkZAOUZEeWayv3yLsng2Q _-TrtwOUZEeWayv3yLsng2Q">
+    <ownedEnd xmi:id="_-TkZAOUZEeWayv3yLsng2Q" name="inforUsuarios" type="_qPD3AORXEeWqYqAI7iQDvw" association="_-Tij0OUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-TrGsOUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-TrGseUZEeWayv3yLsng2Q" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-TrtwOUZEeWayv3yLsng2Q" name="provincias" type="_Rss3UOReEeWqYqAI7iQDvw" association="_-Tij0OUZEeWayv3yLsng2Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-TuxEOUZEeWayv3yLsng2Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-TxNUOUZEeWayv3yLsng2Q" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>

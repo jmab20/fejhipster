@@ -1,0 +1,160 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "clientes",
+      "otherEntityName": "cliente",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "id",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "inforClientes"
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "provincias",
+      "otherEntityName": "provincia",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "id",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "inforClientes"
+    },
+    {
+      "relationshipId": 3,
+      "relationshipName": "paiss",
+      "otherEntityName": "pais",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "marcaPresentada",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "poblacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "coPostal",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 4,
+      "fieldName": "telefono1",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 5,
+      "fieldName": "telefono2",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 6,
+      "fieldName": "telefono3",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 7,
+      "fieldName": "fax",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 8,
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 9,
+      "fieldName": "web",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 10,
+      "fieldName": "cuota",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldId": 11,
+      "fieldName": "cuotaFacturar",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldId": 12,
+      "fieldName": "formaPago",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 13,
+      "fieldName": "presidente",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 14,
+      "fieldName": "dirGeneral",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 15,
+      "fieldName": "dirComercial",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 16,
+      "fieldName": "dirMarkenting",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 17,
+      "fieldName": "responsableLegal",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 18,
+      "fieldName": "otros",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 19,
+      "fieldName": "empresaPertenece",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 20,
+      "fieldName": "medioPeriodista",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 21,
+      "fieldName": "borra",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 22,
+      "fieldName": "ingresos",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldId": 23,
+      "fieldName": "gratuito",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 24,
+      "fieldName": "datosInteres",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 25,
+      "fieldName": "cupoCadGratuito",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20160308091532",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}
