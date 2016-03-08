@@ -7,398 +7,398 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_vPsl8OFPEeWnG9QxINTecQ" name="Cliente">
-    <ownedAttribute xmi:id="_-VrtoOFPEeWnG9QxINTecQ" name="CO_CLIENTE" visibility="public">
+    <ownedAttribute xmi:id="_-VrtoOFPEeWnG9QxINTecQ" name="coCliente" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Vs7wOFPEeWnG9QxINTecQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Vs7weFPEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_AFFOsOFQEeWnG9QxINTecQ" name="NU_CIF" visibility="public">
+    <ownedAttribute xmi:id="_AFFOsOFQEeWnG9QxINTecQ" name="cif" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AFF1wOFQEeWnG9QxINTecQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AFGc0OFQEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_93jrIORYEeWqYqAI7iQDvw" name="CO_TIPO_DOCUMENTO" visibility="public">
+    <ownedAttribute xmi:id="_93jrIORYEeWqYqAI7iQDvw" name="tipoDocumento" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93nVgORYEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_93n8kORYEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_9bYakORaEeWqYqAI7iQDvw" name="NOMBRE_DENO_SOCIAL" visibility="public">
+    <ownedAttribute xmi:id="_9bYakORaEeWqYqAI7iQDvw" name="nombre_social" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9bZosORaEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9bZoseRaEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_HjCAAORbEeWqYqAI7iQDvw" name="FX_ALTA" visibility="public">
+    <ownedAttribute xmi:id="_HjCAAORbEeWqYqAI7iQDvw" name="alta" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HjCnEORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HjCnEeRbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_IS9oIORbEeWqYqAI7iQDvw" name="FX_ENTRADA_VIGOR" visibility="public">
+    <ownedAttribute xmi:id="_IS9oIORbEeWqYqAI7iQDvw" name="entradaVigor" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ITEV0ORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ITHZIORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_IyF0IORbEeWqYqAI7iQDvw" name="OBSERV" visibility="public">
+    <ownedAttribute xmi:id="_IyF0IORbEeWqYqAI7iQDvw" name="observ" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IyGbMORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IyHCQORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_R-NlcORbEeWqYqAI7iQDvw" name="ESTADO" visibility="public">
+    <ownedAttribute xmi:id="_R-NlcORbEeWqYqAI7iQDvw" name="estado" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R-OMgORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R-OzkORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_UZ4WoORbEeWqYqAI7iQDvw" name="BLOQUEADO" visibility="public">
+    <ownedAttribute xmi:id="_UZ4WoORbEeWqYqAI7iQDvw" name="bloqueado" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZ49sORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZ5kwORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_XPZLMORbEeWqYqAI7iQDvw" name="FX_BAJA" visibility="public">
+    <ownedAttribute xmi:id="_XPZLMORbEeWqYqAI7iQDvw" name="baja" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XPbAYORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XPdcoORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Yc3q8ORbEeWqYqAI7iQDvw" name="FX_BAJA_VIGOR" visibility="public">
+    <ownedAttribute xmi:id="_Yc3q8ORbEeWqYqAI7iQDvw" name="bajaVigor" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Yc5gIORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Yc6HMORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_aiR4QORbEeWqYqAI7iQDvw" name="IN_MOROSO" visibility="public">
+    <ownedAttribute xmi:id="_aiR4QORbEeWqYqAI7iQDvw" name="moroso" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aiWJsORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aiWwwORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_mD8koORbEeWqYqAI7iQDvw" name="MODIFICACION" visibility="public">
+    <ownedAttribute xmi:id="_mD8koORbEeWqYqAI7iQDvw" name="modificacion" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mEA2EORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mEA2EeRbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_yLT_EORbEeWqYqAI7iQDvw" name="AUTORIZA" visibility="public">
+    <ownedAttribute xmi:id="_yLT_EORbEeWqYqAI7iQDvw" name="autoriza" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yLUmIORbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yLVNMORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_0Ma7MORbEeWqYqAI7iQDvw" name="FX_ALTA_INDIRECTO" visibility="public">
+    <ownedAttribute xmi:id="_0Ma7MORbEeWqYqAI7iQDvw" name="altaIndirecto" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0Ma7MeRbEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0MbiQORbEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_A-tFcORdEeWqYqAI7iQDvw" name="AMPLIADO" visibility="public">
+    <ownedAttribute xmi:id="_A-tFcORdEeWqYqAI7iQDvw" name="ampliado" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A-tFceRdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A-tsgORdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_KC3NkORdEeWqYqAI7iQDvw" name="FX_BLOQUEO" visibility="public">
+    <ownedAttribute xmi:id="_KC3NkORdEeWqYqAI7iQDvw" name="bloqueo" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KC7fAORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KC8GEORdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Pmbj0ORdEeWqYqAI7iQDvw" name="FX_VENCIMIENTO" visibility="public">
+    <ownedAttribute xmi:id="_Pmbj0ORdEeWqYqAI7iQDvw" name="vencimento" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PmcK4ORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PmcK4eRdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_SZjLsORdEeWqYqAI7iQDvw" name="DIAS_MARGEN_COBRO" visibility="public">
+    <ownedAttribute xmi:id="_SZjLsORdEeWqYqAI7iQDvw" name="diasMargenCobro" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SZjywORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SZjyweRdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_TjQlwORdEeWqYqAI7iQDvw" name="IN_DOC_NO_RECIBIDA" visibility="public">
+    <ownedAttribute xmi:id="_TjQlwORdEeWqYqAI7iQDvw" name="docNoRecibida" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TjTCAORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TjTpEORdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_gyEJYORdEeWqYqAI7iQDvw" name="CO_CATEGORIA" visibility="public">
+    <ownedAttribute xmi:id="_gyEJYORdEeWqYqAI7iQDvw" name="categoria" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gyF-kORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gyF-keRdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_wNoN0OFPEeWnG9QxINTecQ" name="Usuario">
-    <ownedAttribute xmi:id="_ECA-UOFQEeWnG9QxINTecQ" name="CO_USUARIO" visibility="public">
+    <ownedAttribute xmi:id="_ECA-UOFQEeWnG9QxINTecQ" name="coUsuario" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ECBlYOFQEeWnG9QxINTecQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ECBlYeFQEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_I1Qq4OFQEeWnG9QxINTecQ" name="NOMBRE" visibility="public">
+    <ownedAttribute xmi:id="_I1Qq4OFQEeWnG9QxINTecQ" name="nombre" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I1R5AOFQEeWnG9QxINTecQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I1R5AeFQEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_NHpGEOFQEeWnG9QxINTecQ" name="APELLIDOS" visibility="public">
+    <ownedAttribute xmi:id="_NHpGEOFQEeWnG9QxINTecQ" name="apellidos" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NHqUMOFQEeWnG9QxINTecQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NHqUMeFQEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Q5pYEOFQEeWnG9QxINTecQ" name="EMAIL" visibility="public">
+    <ownedAttribute xmi:id="_Q5pYEOFQEeWnG9QxINTecQ" name="email" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q5p_IOFQEeWnG9QxINTecQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q5p_IeFQEeWnG9QxINTecQ" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_oVUGIORiEeWqYqAI7iQDvw" name="NU_TELEFONO" visibility="public">
+    <ownedAttribute xmi:id="_oVUGIORiEeWqYqAI7iQDvw" name="telefono" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oVZlsORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oVaz0ORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_qpyDIORiEeWqYqAI7iQDvw" name="NU_MOVIL" visibility="public">
+    <ownedAttribute xmi:id="_qpyDIORiEeWqYqAI7iQDvw" name="movil" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qpyqMORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qpzRQORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_wOAgsORiEeWqYqAI7iQDvw" name="NU_FAX" visibility="public">
+    <ownedAttribute xmi:id="_wOAgsORiEeWqYqAI7iQDvw" name="fax" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wOGAQORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wOIcgORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_wyixIORiEeWqYqAI7iQDvw" name="PASSWORD" visibility="public">
+    <ownedAttribute xmi:id="_wyixIORiEeWqYqAI7iQDvw" name="password" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wyjYMORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wyj_QORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_xNF_IORiEeWqYqAI7iQDvw" name="OBSERV" visibility="public">
+    <ownedAttribute xmi:id="_xNF_IORiEeWqYqAI7iQDvw" name="observ" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xNGmMORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xNHNQORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_xipYYORiEeWqYqAI7iQDvw" name="IN_ESTADO" visibility="public">
+    <ownedAttribute xmi:id="_xipYYORiEeWqYqAI7iQDvw" name="estado" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xiqmgORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xiqmgeRiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_yE1fcORiEeWqYqAI7iQDvw" name="FX_ALTA" visibility="public">
+    <ownedAttribute xmi:id="_yE1fcORiEeWqYqAI7iQDvw" name="alta" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yE37sORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yE4iwORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_-vFkgORiEeWqYqAI7iQDvw" name="DEPT_CARGO" visibility="public">
+    <ownedAttribute xmi:id="_-vFkgORiEeWqYqAI7iQDvw" name="deptCargo" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-vGLkORiEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vGyoORiEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_EEpT8ORjEeWqYqAI7iQDvw" name="FX_PRIMER_ACCESO" visibility="public">
+    <ownedAttribute xmi:id="_EEpT8ORjEeWqYqAI7iQDvw" name="primerAcceso" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EEqiEORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EErJIORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_IverYORjEeWqYqAI7iQDvw" name="FX_BAJA" visibility="public">
+    <ownedAttribute xmi:id="_IverYORjEeWqYqAI7iQDvw" name="baja" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ivf5gORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ivf5geRjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_LkABcORjEeWqYqAI7iQDvw" name="PASS_TEMPORAL" visibility="public">
+    <ownedAttribute xmi:id="_LkABcORjEeWqYqAI7iQDvw" name="passTemporal" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LkAogORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LkBPkORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_PUAvYORjEeWqYqAI7iQDvw" name="FX_ENVIO_LOPD" visibility="public">
+    <ownedAttribute xmi:id="_PUAvYORjEeWqYqAI7iQDvw" name="envioLopd" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PUBWcORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PUB9gORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_TaVrkORjEeWqYqAI7iQDvw" name="IN_DOC_NO_RECIBIDA" visibility="public">
+    <ownedAttribute xmi:id="_TaVrkORjEeWqYqAI7iQDvw" name="docNoRecibida" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TaWSoORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TaW5sORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_WvV4gORjEeWqYqAI7iQDvw" name="CO_USUARIO_RESPONSABLE" visibility="public">
+    <ownedAttribute xmi:id="_WvV4gORjEeWqYqAI7iQDvw" name="usuarioResponsable" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WvWfkORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WvY70ORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_hk9NoORXEeWqYqAI7iQDvw" name="InforCliente">
-    <ownedAttribute xmi:id="_6qp4AORdEeWqYqAI7iQDvw" name="NO_MARCA_REPRESENTADA" visibility="public">
+    <ownedAttribute xmi:id="_6qp4AORdEeWqYqAI7iQDvw" name="marcaPresentada" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6qqfEORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6qqfEeRdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_8qeasORdEeWqYqAI7iQDvw" name="POBLACION" visibility="public">
+    <ownedAttribute xmi:id="_8qeasORdEeWqYqAI7iQDvw" name="poblacion" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8qfBwORdEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8qfo0ORdEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_86KKkORfEeWqYqAI7iQDvw" name="CO_POSTAL" visibility="public">
+    <ownedAttribute xmi:id="_86KKkORfEeWqYqAI7iQDvw" name="coPostal" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_86KxoORfEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_86N08ORfEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_ASG90ORgEeWqYqAI7iQDvw" name="NU_TELEFONO1" visibility="public">
+    <ownedAttribute xmi:id="_ASG90ORgEeWqYqAI7iQDvw" name="telefono1" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ASHk4ORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ASHk4eRgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_D2XuwORgEeWqYqAI7iQDvw" name="NU_TELEFONO2" visibility="public">
+    <ownedAttribute xmi:id="_D2XuwORgEeWqYqAI7iQDvw" name="telefono2" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D2fqkORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D2fqkeRgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GDuXIORgEeWqYqAI7iQDvw" name="NU_TELEFONO3" visibility="public">
+    <ownedAttribute xmi:id="_GDuXIORgEeWqYqAI7iQDvw" name="telefono3" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GDyBgORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GD1r4ORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_N7CRoORgEeWqYqAI7iQDvw" name="NU_FAX" visibility="public">
+    <ownedAttribute xmi:id="_N7CRoORgEeWqYqAI7iQDvw" name="fax" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N7DfwORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N7RiMORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_TmKocORgEeWqYqAI7iQDvw" name="EMAIL" visibility="public">
+    <ownedAttribute xmi:id="_TmKocORgEeWqYqAI7iQDvw" name="email" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TmLPgORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TmLPgeRgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Up26EORgEeWqYqAI7iQDvw" name="WEB" visibility="public">
+    <ownedAttribute xmi:id="_Up26EORgEeWqYqAI7iQDvw" name="web" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Up3hIORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Up59YORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_U_BRwORgEeWqYqAI7iQDvw" name="CO_CUOTA" visibility="public">
+    <ownedAttribute xmi:id="_U_BRwORgEeWqYqAI7iQDvw" name="cuota" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U_B40ORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U_Cf4ORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_VRfh0ORgEeWqYqAI7iQDvw" name="CUOTA_FACTURAR" visibility="public">
+    <ownedAttribute xmi:id="_VRfh0ORgEeWqYqAI7iQDvw" name="cuotaFacturar" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VRgI4ORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VRgI4eRgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Vm_3wORgEeWqYqAI7iQDvw" name="IN_FORMA_PAGO" visibility="public">
+    <ownedAttribute xmi:id="_Vm_3wORgEeWqYqAI7iQDvw" name="formaPago" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VnAe0ORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VnCUAORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_V60LoORgEeWqYqAI7iQDvw" name="NO_PRESIDENTE" visibility="public">
+    <ownedAttribute xmi:id="_V60LoORgEeWqYqAI7iQDvw" name="presidente" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V60LoeRgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V62n4ORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_WZP0EORgEeWqYqAI7iQDvw" name="NO_DIR_GENERAL" visibility="public">
+    <ownedAttribute xmi:id="_WZP0EORgEeWqYqAI7iQDvw" name="dirGeneral" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WZRCMORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WZTecORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_x7EKUORgEeWqYqAI7iQDvw" name="NO_DIR_COMERCIAL" visibility="public">
+    <ownedAttribute xmi:id="_x7EKUORgEeWqYqAI7iQDvw" name="dirComercial" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x7ExYORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x7FYcORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2Ao4kORgEeWqYqAI7iQDvw" name="NO_DIR_MARKETING" visibility="public">
+    <ownedAttribute xmi:id="_2Ao4kORgEeWqYqAI7iQDvw" name="DirMarkenting" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2AvmQORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2AwNUORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_8xx1MORgEeWqYqAI7iQDvw" name="NO_RESPONSABLE_LEGAL" visibility="public">
+    <ownedAttribute xmi:id="_8xx1MORgEeWqYqAI7iQDvw" name="responsableLegal" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8xycQORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8xzDUORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="__1BjwORgEeWqYqAI7iQDvw" name="OTROS" visibility="public">
+    <ownedAttribute xmi:id="__1BjwORgEeWqYqAI7iQDvw" name="otros" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__1CK0ORgEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__1Cx4ORgEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_EC4EQORhEeWqYqAI7iQDvw" name="EMPRESA_PERTENECE" visibility="public">
+    <ownedAttribute xmi:id="_EC4EQORhEeWqYqAI7iQDvw" name="empresaPertenece" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EC4rUORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EC5SYORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_IgAW4ORhEeWqYqAI7iQDvw" name="CO_MEDIO_PERIODISTA" visibility="public">
+    <ownedAttribute xmi:id="_IgAW4ORhEeWqYqAI7iQDvw" name="medioPeriodista" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IgBlAORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IgBlAeRhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_OVu0IORhEeWqYqAI7iQDvw" name="CO_FORMA_PAGO" visibility="public">
+    <ownedAttribute xmi:id="_OVu0IORhEeWqYqAI7iQDvw" name="borra" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVvbMORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OV06wORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_SFqpkORhEeWqYqAI7iQDvw" name="INGRESOS" visibility="public">
+    <ownedAttribute xmi:id="_SFqpkORhEeWqYqAI7iQDvw" name="ingresos" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SFrQoORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SFr3sORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Xt-V4ORhEeWqYqAI7iQDvw" name="GRATUITO" visibility="public">
+    <ownedAttribute xmi:id="_Xt-V4ORhEeWqYqAI7iQDvw" name="gratuito" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XuBZMORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XuCAQORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_ZHqssORhEeWqYqAI7iQDvw" name="DATOS_INTERES" visibility="public">
+    <ownedAttribute xmi:id="_ZHqssORhEeWqYqAI7iQDvw" name="datosInteres" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZHrTwORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZHr60ORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_fYyFcORhEeWqYqAI7iQDvw" name="CUPO_CAD_GRATUITO" visibility="public">
+    <ownedAttribute xmi:id="_fYyFcORhEeWqYqAI7iQDvw" name="cupoCadGratuito" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fY1v0ORhEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fY2W4ORhEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qPD3AORXEeWqYqAI7iQDvw" name="InforUsuario">
-    <ownedAttribute xmi:id="_peXjcORjEeWqYqAI7iQDvw" name="DS_DOMICILIO" visibility="public">
+    <ownedAttribute xmi:id="_peXjcORjEeWqYqAI7iQDvw" name="domicilio" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pebN0ORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pedDAORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_uCOwMORjEeWqYqAI7iQDvw" name="POBLACION" visibility="public">
+    <ownedAttribute xmi:id="_uCOwMORjEeWqYqAI7iQDvw" name="poblacion" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uCPXQORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uCP-UORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_wAJOYORjEeWqYqAI7iQDvw" name="CO_POSTAL" visibility="public">
+    <ownedAttribute xmi:id="_wAJOYORjEeWqYqAI7iQDvw" name="coPostal" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wAJ1cORjEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wALDkORjEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Oh0oAORkEeWqYqAI7iQDvw" name="EMPRESA" visibility="public">
+    <ownedAttribute xmi:id="_Oh0oAORkEeWqYqAI7iQDvw" name="empresa" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oh12IORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oh2dMORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Qb02kORkEeWqYqAI7iQDvw" name="NU_TELEFONO2" visibility="public">
+    <ownedAttribute xmi:id="_Qb02kORkEeWqYqAI7iQDvw" name="telefono2" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qb2EsORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qb4g8ORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_TRqbQORkEeWqYqAI7iQDvw" name="NU_TELEFONO3" visibility="public">
+    <ownedAttribute xmi:id="_TRqbQORkEeWqYqAI7iQDvw" name="telefono3" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TRrCUORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TRrpYORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_VzCy4ORkEeWqYqAI7iQDvw" name="EMAIL2" visibility="public">
+    <ownedAttribute xmi:id="_VzCy4ORkEeWqYqAI7iQDvw" name="email2" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VzEBAORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VzEoEORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_YAXmEORkEeWqYqAI7iQDvw" name="EMAIL3" visibility="public">
+    <ownedAttribute xmi:id="_YAXmEORkEeWqYqAI7iQDvw" name="email3" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YAaCUORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YAgI8ORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_aW7NwORkEeWqYqAI7iQDvw" name="NU_DOCUMENTO" visibility="public">
+    <ownedAttribute xmi:id="_aW7NwORkEeWqYqAI7iQDvw" name="documento" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aW700ORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aW-4IORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_dT8YgORkEeWqYqAI7iQDvw" name="INFO_PROFESIONAL" visibility="public">
+    <ownedAttribute xmi:id="_dT8YgORkEeWqYqAI7iQDvw" name="infoProfesional" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dT8_kORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dT9moORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_gi8EEORkEeWqYqAI7iQDvw" name="CO_TIPO_DOCUMENTO" visibility="public">
+    <ownedAttribute xmi:id="_gi8EEORkEeWqYqAI7iQDvw" name="tipoDocumento" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gi9SMORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gi9SMeRkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_j6mjcORkEeWqYqAI7iQDvw" name="NU_COPIAS_RESVISTA" visibility="public">
+    <ownedAttribute xmi:id="_j6mjcORkEeWqYqAI7iQDvw" name="nuCopiasRevista" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j6nxkORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j6o_sORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_oIguUORkEeWqYqAI7iQDvw" name="FX_INI_SUS_REVISTA" visibility="public">
+    <ownedAttribute xmi:id="_oIguUORkEeWqYqAI7iQDvw" name="iniSusRevista" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oIh8cORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oIijgORkEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_o2AGcORkEeWqYqAI7iQDvw" name="FX_FIN_SUS_REVISTA" visibility="public">
+    <ownedAttribute xmi:id="_o2AGcORkEeWqYqAI7iQDvw" name="finsusRevista" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o2BUkORkEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o2B7oORkEeWqYqAI7iQDvw" value="1"/>
@@ -432,12 +432,12 @@
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OSynIORcEeWqYqAI7iQDvw" name="SubtipoCliente">
-    <ownedAttribute xmi:id="_VNRF8ORcEeWqYqAI7iQDvw" name="CO_SUBTIPO_CLIENTE" visibility="public">
+    <ownedAttribute xmi:id="_VNRF8ORcEeWqYqAI7iQDvw" name="coSubtipoCliente" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VNRF8eRcEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VNRtAORcEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_VrAK0ORcEeWqYqAI7iQDvw" name="DS_SUBTIPO_CLIENTE" visibility="public">
+    <ownedAttribute xmi:id="_VrAK0ORcEeWqYqAI7iQDvw" name="subtipoCliente" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VrAx4ORcEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VrBY8ORcEeWqYqAI7iQDvw" value="1"/>
@@ -445,12 +445,12 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OQ3poOReEeWqYqAI7iQDvw" name="Pais">
     <templateBinding xmi:id="_wxcWMORoEeW2X4N97zchHQ"/>
-    <ownedAttribute xmi:id="_D1Z64ORfEeWqYqAI7iQDvw" name="CO_PAIS" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:id="_D1Z64ORfEeWqYqAI7iQDvw" name="borra" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D1dlQORfEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D1dlQeRfEeWqYqAI7iQDvw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GbQi0ORfEeWqYqAI7iQDvw" name="NO_PAIS" visibility="public">
+    <ownedAttribute xmi:id="_GbQi0ORfEeWqYqAI7iQDvw" name="pais" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GbRJ4ORfEeWqYqAI7iQDvw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GbRw8ORfEeWqYqAI7iQDvw" value="1"/>
