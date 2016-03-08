@@ -1,0 +1,150 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myClienteLabel" translate="fejhipsterApp.cliente.home.createOrEditLabel">Create or edit a Cliente</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="cliente.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.cif" for="field_cif">Cif</label>
+            <input type="text" class="form-control" name="cif" id="field_cif"
+                    ng-model="cliente.cif"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.tipoDocumento" for="field_tipoDocumento">TipoDocumento</label>
+            <input type="text" class="form-control" name="tipoDocumento" id="field_tipoDocumento"
+                    ng-model="cliente.tipoDocumento"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.nombreSocial" for="field_nombreSocial">NombreSocial</label>
+            <input type="text" class="form-control" name="nombreSocial" id="field_nombreSocial"
+                    ng-model="cliente.nombreSocial"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.alta" for="field_alta">Alta</label>
+            <input type="text" class="form-control" name="alta" id="field_alta"
+                    ng-model="cliente.alta"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.entradaVigor" for="field_entradaVigor">EntradaVigor</label>
+            <input type="text" class="form-control" name="entradaVigor" id="field_entradaVigor"
+                    ng-model="cliente.entradaVigor"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.observ" for="field_observ">Observ</label>
+            <input type="text" class="form-control" name="observ" id="field_observ"
+                    ng-model="cliente.observ"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.estado" for="field_estado">Estado</label>
+            <input type="text" class="form-control" name="estado" id="field_estado"
+                    ng-model="cliente.estado"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.bloqueado" for="field_bloqueado">Bloqueado</label>
+            <input type="text" class="form-control" name="bloqueado" id="field_bloqueado"
+                    ng-model="cliente.bloqueado"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.baja" for="field_baja">Baja</label>
+            <input type="text" class="form-control" name="baja" id="field_baja"
+                    ng-model="cliente.baja"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.bajaVigor" for="field_bajaVigor">BajaVigor</label>
+            <input type="text" class="form-control" name="bajaVigor" id="field_bajaVigor"
+                    ng-model="cliente.bajaVigor"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.moroso" for="field_moroso">Moroso</label>
+            <input type="text" class="form-control" name="moroso" id="field_moroso"
+                    ng-model="cliente.moroso"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.modificacion" for="field_modificacion">Modificacion</label>
+            <input type="text" class="form-control" name="modificacion" id="field_modificacion"
+                    ng-model="cliente.modificacion"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.autoriza" for="field_autoriza">Autoriza</label>
+            <input type="text" class="form-control" name="autoriza" id="field_autoriza"
+                    ng-model="cliente.autoriza"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.altaIndirecto" for="field_altaIndirecto">AltaIndirecto</label>
+            <input type="text" class="form-control" name="altaIndirecto" id="field_altaIndirecto"
+                    ng-model="cliente.altaIndirecto"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.ampliado" for="field_ampliado">Ampliado</label>
+            <input type="text" class="form-control" name="ampliado" id="field_ampliado"
+                    ng-model="cliente.ampliado"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.bloqueo" for="field_bloqueo">Bloqueo</label>
+            <input type="text" class="form-control" name="bloqueo" id="field_bloqueo"
+                    ng-model="cliente.bloqueo"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.vencimento" for="field_vencimento">Vencimento</label>
+            <input type="text" class="form-control" name="vencimento" id="field_vencimento"
+                    ng-model="cliente.vencimento"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.diasMargenCobro" for="field_diasMargenCobro">DiasMargenCobro</label>
+            <input type="text" class="form-control" name="diasMargenCobro" id="field_diasMargenCobro"
+                    ng-model="cliente.diasMargenCobro"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.docNoRecibida" for="field_docNoRecibida">DocNoRecibida</label>
+            <input type="text" class="form-control" name="docNoRecibida" id="field_docNoRecibida"
+                    ng-model="cliente.docNoRecibida"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.cliente.categoria" for="field_categoria">Categoria</label>
+            <input type="text" class="form-control" name="categoria" id="field_categoria"
+                    ng-model="cliente.categoria"
+                     />
+        </div>
+
+        <div class="form-group">
+            <label translate="fejhipsterApp.cliente.usuarios" for="field_usuarios">usuarios</label>
+            <select class="form-control" id="field_usuarios" multiple name="usuarios" ng-model="cliente.usuarioss" ng-options="usuario as usuario.id for usuario in usuarios track by usuario.id"></select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

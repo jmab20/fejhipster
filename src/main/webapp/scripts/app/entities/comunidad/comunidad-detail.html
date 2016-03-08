@@ -1,0 +1,30 @@
+
+<div>
+    <h2><span translate="fejhipsterApp.comunidad.detail.title">Comunidad</span> {{comunidad.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.comunidad.des">Des</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{comunidad.des}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

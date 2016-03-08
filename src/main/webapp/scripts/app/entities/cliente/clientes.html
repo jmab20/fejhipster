@@ -1,0 +1,112 @@
+<div>
+    <h2 translate="fejhipsterApp.cliente.home.title">Clientes</h2>
+    <jh-alert></jh-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="cliente.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span 
+class="hidden-xs"                        translate="fejhipsterApp.cliente.home.createLabel">Create new Cliente
+                    </span>
+                </button>
+            </div>
+            <div class="col-xs-8 no-padding-right">
+                <form name="searchForm" class="form-inline">
+                    <div class="input-group pull-right" >
+                        <input type="text" class="form-control" ng-model="searchQuery" id="searchQuery" placeholder="{{ 'fejhipsterApp.cliente.home.search' | translate }}">
+                        <span  class="input-group-btn width-min" >
+                            <button class="btn btn-info" ng-click="search()">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span translate="global.field.id">ID</span></th>
+                    <th><span translate="fejhipsterApp.cliente.cif">Cif</span></th>
+                    <th><span translate="fejhipsterApp.cliente.tipoDocumento">TipoDocumento</span></th>
+                    <th><span translate="fejhipsterApp.cliente.nombreSocial">NombreSocial</span></th>
+                    <th><span translate="fejhipsterApp.cliente.alta">Alta</span></th>
+                    <th><span translate="fejhipsterApp.cliente.entradaVigor">EntradaVigor</span></th>
+                    <th><span translate="fejhipsterApp.cliente.observ">Observ</span></th>
+                    <th><span translate="fejhipsterApp.cliente.estado">Estado</span></th>
+                    <th><span translate="fejhipsterApp.cliente.bloqueado">Bloqueado</span></th>
+                    <th><span translate="fejhipsterApp.cliente.baja">Baja</span></th>
+                    <th><span translate="fejhipsterApp.cliente.bajaVigor">BajaVigor</span></th>
+                    <th><span translate="fejhipsterApp.cliente.moroso">Moroso</span></th>
+                    <th><span translate="fejhipsterApp.cliente.modificacion">Modificacion</span></th>
+                    <th><span translate="fejhipsterApp.cliente.autoriza">Autoriza</span></th>
+                    <th><span translate="fejhipsterApp.cliente.altaIndirecto">AltaIndirecto</span></th>
+                    <th><span translate="fejhipsterApp.cliente.ampliado">Ampliado</span></th>
+                    <th><span translate="fejhipsterApp.cliente.bloqueo">Bloqueo</span></th>
+                    <th><span translate="fejhipsterApp.cliente.vencimento">Vencimento</span></th>
+                    <th><span translate="fejhipsterApp.cliente.diasMargenCobro">DiasMargenCobro</span></th>
+                    <th><span translate="fejhipsterApp.cliente.docNoRecibida">DocNoRecibida</span></th>
+                    <th><span translate="fejhipsterApp.cliente.categoria">Categoria</span></th>
+                    <th><span translate="fejhipsterApp.cliente.usuarios">usuarios</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="cliente in clientes track by cliente.id">
+                    <td><a ui-sref="cliente.detail({id:cliente.id})">{{cliente.id}}</a></td>
+                    <td>{{cliente.cif}}</td>
+                    <td>{{cliente.tipoDocumento}}</td>
+                    <td>{{cliente.nombreSocial}}</td>
+                    <td>{{cliente.alta}}</td>
+                    <td>{{cliente.entradaVigor}}</td>
+                    <td>{{cliente.observ}}</td>
+                    <td>{{cliente.estado}}</td>
+                    <td>{{cliente.bloqueado}}</td>
+                    <td>{{cliente.baja}}</td>
+                    <td>{{cliente.bajaVigor}}</td>
+                    <td>{{cliente.moroso}}</td>
+                    <td>{{cliente.modificacion}}</td>
+                    <td>{{cliente.autoriza}}</td>
+                    <td>{{cliente.altaIndirecto}}</td>
+                    <td>{{cliente.ampliado}}</td>
+                    <td>{{cliente.bloqueo}}</td>
+                    <td>{{cliente.vencimento}}</td>
+                    <td>{{cliente.diasMargenCobro}}</td>
+                    <td>{{cliente.docNoRecibida}}</td>
+                    <td>{{cliente.categoria}}</td>
+                    <td>
+                        <span ng-repeat="usuarios in cliente.usuarioss">
+                            <a class="form-control-static" ui-sref="usuario.detail({id: {{usuarios.id}}})">{{usuarios.id}}</a>{{$last ? '' : ', '}}
+                        <span>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="cliente.detail({id:cliente.id})"
+                                    class="btn btn-info btn-sm"> 
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="cliente.edit({id:cliente.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="cliente.delete({id:cliente.id})"
+                                    class="btn btn-danger btn-sm">                                    
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

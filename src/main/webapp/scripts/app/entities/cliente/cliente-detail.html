@@ -1,0 +1,192 @@
+
+<div>
+    <h2><span translate="fejhipsterApp.cliente.detail.title">Cliente</span> {{cliente.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.cif">Cif</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.cif}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.tipoDocumento">TipoDocumento</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.tipoDocumento}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.nombreSocial">NombreSocial</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.nombreSocial}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.alta">Alta</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.alta}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.entradaVigor">EntradaVigor</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.entradaVigor}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.observ">Observ</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.observ}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.estado">Estado</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.estado}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.bloqueado">Bloqueado</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.bloqueado}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.baja">Baja</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.baja}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.bajaVigor">BajaVigor</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.bajaVigor}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.moroso">Moroso</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.moroso}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.modificacion">Modificacion</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.modificacion}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.autoriza">Autoriza</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.autoriza}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.altaIndirecto">AltaIndirecto</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.altaIndirecto}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.ampliado">Ampliado</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.ampliado}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.bloqueo">Bloqueo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.bloqueo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.vencimento">Vencimento</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.vencimento}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.diasMargenCobro">DiasMargenCobro</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.diasMargenCobro}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.docNoRecibida">DocNoRecibida</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.docNoRecibida}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.categoria">Categoria</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{cliente.categoria}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.cliente.usuarios">usuarios</span>
+                </td>
+                <td>
+                    <span ng-repeat="usuarios in cliente.usuarioss">
+                        <a class="form-control-static" ui-sref="usuario.detail({id: {{usuarios.id}}})">{{usuarios.id}}</a>{{$last ? '' : ', '}}
+                    </span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

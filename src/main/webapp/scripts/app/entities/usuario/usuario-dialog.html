@@ -1,0 +1,134 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myUsuarioLabel" translate="fejhipsterApp.usuario.home.createOrEditLabel">Create or edit a Usuario</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="usuario.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.nombre" for="field_nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="field_nombre"
+                    ng-model="usuario.nombre"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.apellidos" for="field_apellidos">Apellidos</label>
+            <input type="text" class="form-control" name="apellidos" id="field_apellidos"
+                    ng-model="usuario.apellidos"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.email" for="field_email">Email</label>
+            <input type="text" class="form-control" name="email" id="field_email"
+                    ng-model="usuario.email"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.telefono" for="field_telefono">Telefono</label>
+            <input type="text" class="form-control" name="telefono" id="field_telefono"
+                    ng-model="usuario.telefono"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.movil" for="field_movil">Movil</label>
+            <input type="text" class="form-control" name="movil" id="field_movil"
+                    ng-model="usuario.movil"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.fax" for="field_fax">Fax</label>
+            <input type="text" class="form-control" name="fax" id="field_fax"
+                    ng-model="usuario.fax"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.password" for="field_password">Password</label>
+            <input type="text" class="form-control" name="password" id="field_password"
+                    ng-model="usuario.password"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.observ" for="field_observ">Observ</label>
+            <input type="text" class="form-control" name="observ" id="field_observ"
+                    ng-model="usuario.observ"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.estado" for="field_estado">Estado</label>
+            <input type="text" class="form-control" name="estado" id="field_estado"
+                    ng-model="usuario.estado"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.alta" for="field_alta">Alta</label>
+            <input type="text" class="form-control" name="alta" id="field_alta"
+                    ng-model="usuario.alta"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.deptCargo" for="field_deptCargo">DeptCargo</label>
+            <input type="text" class="form-control" name="deptCargo" id="field_deptCargo"
+                    ng-model="usuario.deptCargo"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.primerAcceso" for="field_primerAcceso">PrimerAcceso</label>
+            <input type="text" class="form-control" name="primerAcceso" id="field_primerAcceso"
+                    ng-model="usuario.primerAcceso"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.baja" for="field_baja">Baja</label>
+            <input type="text" class="form-control" name="baja" id="field_baja"
+                    ng-model="usuario.baja"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.passTemporal" for="field_passTemporal">PassTemporal</label>
+            <input type="text" class="form-control" name="passTemporal" id="field_passTemporal"
+                    ng-model="usuario.passTemporal"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.envioLopd" for="field_envioLopd">EnvioLopd</label>
+            <input type="text" class="form-control" name="envioLopd" id="field_envioLopd"
+                    ng-model="usuario.envioLopd"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.docNoRecibida" for="field_docNoRecibida">DocNoRecibida</label>
+            <input type="text" class="form-control" name="docNoRecibida" id="field_docNoRecibida"
+                    ng-model="usuario.docNoRecibida"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="fejhipsterApp.usuario.usuarioResponsable" for="field_usuarioResponsable">UsuarioResponsable</label>
+            <input type="number" class="form-control" name="usuarioResponsable" id="field_usuarioResponsable"
+                    ng-model="usuario.usuarioResponsable"
+                     />
+        </div>
+
+        <div class="form-group">
+            <label translate="fejhipsterApp.usuario.inforUsuarios" for="field_inforUsuarios">inforUsuarios</label>
+            <select class="form-control" id="field_inforUsuarios" name="inforUsuarios" ng-model="usuario.inforUsuarios" ng-options="inforUsuario as inforUsuario.id for inforUsuario in inforusuarioss | orderBy:'id' track by inforUsuario.id">
+                <option value=""></option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

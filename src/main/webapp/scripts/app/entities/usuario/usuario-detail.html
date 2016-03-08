@@ -1,0 +1,166 @@
+
+<div>
+    <h2><span translate="fejhipsterApp.usuario.detail.title">Usuario</span> {{usuario.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.nombre">Nombre</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.nombre}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.apellidos">Apellidos</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.apellidos}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.email">Email</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.email}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.telefono">Telefono</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.telefono}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.movil">Movil</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.movil}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.fax">Fax</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.fax}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.password">Password</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.password}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.observ">Observ</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.observ}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.estado">Estado</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.estado}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.alta">Alta</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.alta}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.deptCargo">DeptCargo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.deptCargo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.primerAcceso">PrimerAcceso</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.primerAcceso}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.baja">Baja</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.baja}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.passTemporal">PassTemporal</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.passTemporal}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.envioLopd">EnvioLopd</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.envioLopd}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.docNoRecibida">DocNoRecibida</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.docNoRecibida}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.usuarioResponsable">UsuarioResponsable</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{usuario.usuarioResponsable}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="fejhipsterApp.usuario.inforUsuarios">inforUsuarios</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="inforUsuario.detail({id:usuario.inforUsuarios.id})">{{usuario.inforUsuarios.id}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

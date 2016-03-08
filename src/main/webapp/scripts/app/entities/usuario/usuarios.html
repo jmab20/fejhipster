@@ -1,0 +1,104 @@
+<div>
+    <h2 translate="fejhipsterApp.usuario.home.title">Usuarios</h2>
+    <jh-alert></jh-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="usuario.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span 
+class="hidden-xs"                        translate="fejhipsterApp.usuario.home.createLabel">Create new Usuario
+                    </span>
+                </button>
+            </div>
+            <div class="col-xs-8 no-padding-right">
+                <form name="searchForm" class="form-inline">
+                    <div class="input-group pull-right" >
+                        <input type="text" class="form-control" ng-model="searchQuery" id="searchQuery" placeholder="{{ 'fejhipsterApp.usuario.home.search' | translate }}">
+                        <span  class="input-group-btn width-min" >
+                            <button class="btn btn-info" ng-click="search()">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span translate="global.field.id">ID</span></th>
+                    <th><span translate="fejhipsterApp.usuario.nombre">Nombre</span></th>
+                    <th><span translate="fejhipsterApp.usuario.apellidos">Apellidos</span></th>
+                    <th><span translate="fejhipsterApp.usuario.email">Email</span></th>
+                    <th><span translate="fejhipsterApp.usuario.telefono">Telefono</span></th>
+                    <th><span translate="fejhipsterApp.usuario.movil">Movil</span></th>
+                    <th><span translate="fejhipsterApp.usuario.fax">Fax</span></th>
+                    <th><span translate="fejhipsterApp.usuario.password">Password</span></th>
+                    <th><span translate="fejhipsterApp.usuario.observ">Observ</span></th>
+                    <th><span translate="fejhipsterApp.usuario.estado">Estado</span></th>
+                    <th><span translate="fejhipsterApp.usuario.alta">Alta</span></th>
+                    <th><span translate="fejhipsterApp.usuario.deptCargo">DeptCargo</span></th>
+                    <th><span translate="fejhipsterApp.usuario.primerAcceso">PrimerAcceso</span></th>
+                    <th><span translate="fejhipsterApp.usuario.baja">Baja</span></th>
+                    <th><span translate="fejhipsterApp.usuario.passTemporal">PassTemporal</span></th>
+                    <th><span translate="fejhipsterApp.usuario.envioLopd">EnvioLopd</span></th>
+                    <th><span translate="fejhipsterApp.usuario.docNoRecibida">DocNoRecibida</span></th>
+                    <th><span translate="fejhipsterApp.usuario.usuarioResponsable">UsuarioResponsable</span></th>
+                    <th><span translate="fejhipsterApp.usuario.inforUsuarios">inforUsuarios</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="usuario in usuarios track by usuario.id">
+                    <td><a ui-sref="usuario.detail({id:usuario.id})">{{usuario.id}}</a></td>
+                    <td>{{usuario.nombre}}</td>
+                    <td>{{usuario.apellidos}}</td>
+                    <td>{{usuario.email}}</td>
+                    <td>{{usuario.telefono}}</td>
+                    <td>{{usuario.movil}}</td>
+                    <td>{{usuario.fax}}</td>
+                    <td>{{usuario.password}}</td>
+                    <td>{{usuario.observ}}</td>
+                    <td>{{usuario.estado}}</td>
+                    <td>{{usuario.alta}}</td>
+                    <td>{{usuario.deptCargo}}</td>
+                    <td>{{usuario.primerAcceso}}</td>
+                    <td>{{usuario.baja}}</td>
+                    <td>{{usuario.passTemporal}}</td>
+                    <td>{{usuario.envioLopd}}</td>
+                    <td>{{usuario.docNoRecibida}}</td>
+                    <td>{{usuario.usuarioResponsable}}</td>
+                    <td>
+                        <a ui-sref="inforUsuario.detail({id:usuario.inforUsuarios.id})">{{usuario.inforUsuarios.id}}</a>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="usuario.detail({id:usuario.id})"
+                                    class="btn btn-info btn-sm"> 
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="usuario.edit({id:usuario.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="usuario.delete({id:usuario.id})"
+                                    class="btn btn-danger btn-sm">                                    
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
