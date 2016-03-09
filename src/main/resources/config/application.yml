@@ -46,7 +46,17 @@ jhipster:
         #allow-credentials: true
         #max-age: 1800
     mail:
-        from: fejhipster@localhost
+        host: smtp.gmail.com
+        port: 587
+        user: acatecsidel@gmail.com
+        password: 123456789
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+           auth: true
+           starttls.enable: true
+           ssl.trust: smtp.gmail.com
+
     security:
         rememberme:
             # security key (this key should be unique for your application, and kept secret)

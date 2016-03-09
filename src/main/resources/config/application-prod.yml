@@ -38,10 +38,17 @@ spring:
             cluster-name:
             cluster-nodes: localhost:9300
     mail:
-        host: localhost
-        port: 25
-        username:
-        password:
+        host: smtp.gmail.com
+        port: 587
+        user: acatecsidel@gmail.com
+        password: 123456789
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+           auth: true
+           starttls.enable: true
+           ssl.trust: smtp.gmail.com
+
     thymeleaf:
         cache: true
 

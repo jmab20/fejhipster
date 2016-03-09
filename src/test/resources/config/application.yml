@@ -39,7 +39,17 @@ spring:
                   logs: target/elasticsearch/log
                   data: target/elasticsearch/data
     mail:
-        host: localhost
+        host: smtp.gmail.com
+        port: 587
+        username: acatecsidel@gmail.com 
+        password: 2acatecsidel2         
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com
+        from: acatecsidel@gmail.com 
     mvc:
         favicon:
             enabled: false
