@@ -1,7 +1,7 @@
 {
     "main": {
-        "title": "Welcome, Java Hipster!",
-        "subtitle": "This is your homepage",
+        "title": "Welcome, Autocontrol!",
+        "subtitle": "Association for Self-regulation of Commercial Communication",
         "logged": {
             "message": "You are logged in as user \"{{username}}\"."
         },

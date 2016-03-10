@@ -1,7 +1,7 @@
 {
     "main": {
-        "title": "Bienvenue, Java Hipster !",
-        "subtitle": "Ceci est votre page d'accueil",
+        "title": "Bienvenue, Autocontrol !",
+        "subtitle": "Association pour l'auto-régulation de la communication commerciale",
         "logged": {
             "message": "Vous êtes connecté en tant que \"{{username}}\"."
         },
